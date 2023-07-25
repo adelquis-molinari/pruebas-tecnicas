@@ -1,9 +1,8 @@
-import { useFavoriteBooksStore } from "../../store/store";
+import { useFavoriteBook } from "../../hooks/useFavoriteBook";
 import { CardBook } from "./cardBook";
 
 export function SectionCardsBooks() {
-  const data = useFavoriteBooksStore((state) => state.storeBooks);
-  const isFavorite = useFavoriteBooksStore((state) => state.favoriteBooksIds);
+  const { data, isFavorite } = useFavoriteBook();
 
   return (
     <main className="w-full grid grid-cols-5 gap-3 pl-80 pt-24 ">
