@@ -8,10 +8,8 @@ export function Layout(props: Props) {
   return (
     <>
       <HeaderApp />
-      <div className="flex">
-        <SideBar />
-        <main>{props.children}</main>
-      </div>
+      <SideBar />
+      <main>{props.children}</main>
     </>
   );
 }
