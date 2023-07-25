@@ -22,7 +22,7 @@ export function CardBook(props: PropsBook) {
   return (
     <div className="block rounded-lg w-64  border border-amber-500 ">
       <img
-        className="rounded-t-lg w-64 h-96  object-cover"
+        className="rounded-t-lg w-64 h-64 object-cover object-top"
         src={cover}
         alt={title}
       />
