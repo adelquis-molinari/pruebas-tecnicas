@@ -1,4 +1,4 @@
-import { HeaderApp } from "./components/header";
+import { HeaderApp } from "./components/header/headerApp";
 import { SideBar } from "./components/sideBar";
 interface Props {
   children: React.ReactNode;
