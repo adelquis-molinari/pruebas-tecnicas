@@ -1,3 +1,7 @@
+export interface Props {
+  children: React.ReactNode;
+}
+
 export interface Book {
   title: string;
   pages: number;
